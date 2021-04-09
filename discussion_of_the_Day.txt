@@ -1,0 +1,77 @@
+Day6th 08-April-2021
+* Event Driven Components
+* Security and Identity
+* Governance and Monitoring
+* Continuous Integration and Continuous Delivery
+* Containerization
+-----------------------------------------------------------------------------------
+
+Docker 
+Docker images
+
+Containers========> Containerization
+
+Container and Image
+
+If we want some images which are already available like image for 
+*jre
+*mysql database
+So from where we get these images.
+
+ans: we can get the predefined docker images being pulled from docker hub
+
+https://hub.docker.com/
+
+Q can we have our own image get created and pushed to docker hub so that other can 
+pull those images and work with those images?
+
+ans: yes we can create our own images and push it to docker hub. For that we have
+to create an account in docker hub.
+
+Q Do we need to install go language in our system?
+No
+
+Q So for using docker command what we need?
+A We need to have docker installation in our system. So we have docker for windows.
+Docker for ubuntu.
+
+https://docs.docker.com/docker-for-windows/install/
+
+Q Suppose we want to pull an image of mysql in our system and use
+  docker pull mysql [ Note it will pull the latest version ]
+--------------------------------------------------------------------
+
+
+Event driven architecture / Reactive Programming / Ansynchronous programming 
+
+They can to make the response time of the application faster or quicker.
+
+You have a daily routine nowdays:-
+Breakfast
+Training program ( 9 to 7 and have a lunch in between)
+Going to market for groceries
+Playing some games /gym
+dinner 
+sleep
+
+So above task are being done synchronously
+What disadvantage we get unsychronous programming or approach
+
+
+Breakfast
+Training program ( 9 to 7 and Going to market for groceries, have a lunch in between )
+Playing some games /gym
+dinner 
+sleep
+-------------------------------------------------------------------------------
+https://geekflare.com/container-orchestration-software/
+
+https://www.edgetechacademy.edu/node-js/event-driven-programming/
+https://flaviocopes.com/javascript-events/#:~:text=Introduction-,JavaScript%20in%20the%20browser%20uses%20an%20event%2Ddriven%20programming%20model,user%20types%20on%20the%20keyboard.
+https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture#:~:text=Event%2Ddriven%20architecture%20is%20a,a%20traditional%20request%2Ddriven%20model.
+
+https://aws.amazon.com/caching/#:~:text=In%20computing%2C%20a%20cache%20is,the%20data's%20primary%20storage%20location.
+
+https://www.youtube.com/watch?v=U3RkDLtS7uY
+https://en.wikipedia.org/wiki/Distributed_cache#:~:text=In%20computing%2C%20a%20distributed%20cache,database%20and%20web%20session%20data.
+https://hazelcast.com/glossary/distributed-cache/
